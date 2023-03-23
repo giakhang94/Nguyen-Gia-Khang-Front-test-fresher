@@ -116,7 +116,7 @@ export default function FilterForm() {
               setQh(e.target.value);
             }}
           >
-            <option>--Quận Huyện--</option>
+            <option value="">--Quận Huyện--</option>
             {tinhTP !== "" &&
               quanHuyen.map((qh, index) => {
                 return (
